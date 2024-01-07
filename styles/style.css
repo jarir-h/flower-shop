@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+
+.btn-all {
+    padding: 13px 18px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    border: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*    header    section   */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-section {
+    display: flex;
+}
+
+.header-title h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    width: 400px;
+    padding: 160px 50px 20px 0;
+}
+
+.header-title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.header-img img {
+    background-size: cover;
+}
+
+/*    service  section    */
+
+.taitle-text {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 100px 0 15px 0;
+}
+
+.text-deatails {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 590px;
+    padding: 5px 200px 30px 200px;
+}
+
+.section-box {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.img-section {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: end;
+    padding: 0 15px;
+    height: 500px;
+    display: flex;
+}
+
+.service-item img {
+    background-size: cover;
+}
+
+.service-item p {
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 15px;
+}
