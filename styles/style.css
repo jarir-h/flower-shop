@@ -12,6 +12,7 @@
     background: #E55473;
     color: aliceblue;
     border: 0;
+    cursor: pointer;
 }
 
 .container {
@@ -98,4 +99,141 @@ header {
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 15px;
+}
+
+/*    delivery  section   */
+
+.deliveri-section {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px 0;
+}
+
+.delivery-img {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.delivery-img p {
+    padding: 15px 0;
+    text-align: center;
+    color: #272727CC;
+}
+
+/*   hot deal section   */
+
+.hot-deal-section {
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-box {
+    display: flex;
+    margin: 10px 100px 0px 100px;
+}
+
+.hot-deal-title {
+    text-align: center;
+}
+
+.hot-deal-title h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 150px 0 15px 0;
+}
+
+.hot-deal-title span {
+    color: #E55473;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.hot-deal-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 500px;
+}
+
+.hot-deal-title button {
+    margin-top: 20px;
+}
+
+/*    post  section    */
+
+.post-box {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.post-img img {
+    width: 250px;
+}
+
+/*   Subscribe  section   */
+
+.subscribe-cover {
+    background-image: url('../flower/Rectangle\ 9.png');
+    margin: 70px 0 120px 0;
+    border-radius: 8px;
+}
+
+.subscribe-btn {
+    display: flex;
+    gap: 15px;
+    padding: 0 0 80px 300px;
+}
+
+.subscribe-btn input {
+    width: 400px;
+    display: inline-block;
+    padding: 15px 0 15px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+/*     footer   section   */
+
+footer {
+    background-color: #111010;
+}
+
+h3 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding: 60px 0 10px 0;
+}
+
+span {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding: 60px 0 10px 0;
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0 20px 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 20px 0;
 }
